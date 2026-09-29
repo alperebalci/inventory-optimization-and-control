@@ -1,0 +1,20 @@
+schema_version: 1
+repository: inventory-optimization-and-control
+role: umbrella
+axis: problem-class
+area: inventory
+status: active
+owner: jorsacademy
+projects:
+  - chance-constrained-inventory-optimization-python
+  - conformal-prediction-robust-inventory-optimization-python
+  - contextual-optimization-newsvendor
+  - demand-forecasting-plus-inventory-control
+  - hyperopt-inventory-policy-optimization
+  - robust-healthcare-inventory-optimization
+  - seasonal-inventory-planning-python
+  - wasserstein-dro-inventory-optimization-python
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
