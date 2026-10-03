@@ -1,0 +1,22 @@
+name: Behavioral Operations
+
+on:
+  push:
+    paths:
+      - 'projects/behavioral-operations-and-human-decision-making/**'
+      - '.github/workflows/behavioral-operations.yml'
+  pull_request:
+    paths:
+      - 'projects/behavioral-operations-and-human-decision-making/**'
+      - '.github/workflows/behavioral-operations.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r projects/behavioral-operations-and-human-decision-making/requirements.txt
+      - run: PYTHONPATH=projects/behavioral-operations-and-human-decision-making pytest -q projects/behavioral-operations-and-human-decision-making
