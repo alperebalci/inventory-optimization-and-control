@@ -7,6 +7,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 
 ### Included projects
 
+- [`behavioral-operations-and-human-decision-making`](projects/behavioral-operations-and-human-decision-making/) — behavioral newsvendor, anchoring, pull-to-center bias and bounded human overrides
 - [`chance-constrained-inventory-optimization-python`](projects/chance-constrained-inventory-optimization-python/)
 - [`conformal-prediction-robust-inventory-optimization-python`](projects/conformal-prediction-robust-inventory-optimization-python/)
 - [`contextual-optimization-newsvendor`](projects/contextual-optimization-newsvendor/)
