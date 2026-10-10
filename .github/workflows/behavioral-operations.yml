@@ -2,13 +2,9 @@ name: Behavioral Operations
 
 on:
   push:
-    paths:
-      - 'projects/behavioral-operations-and-human-decision-making/**'
-      - '.github/workflows/behavioral-operations.yml'
+    branches: [main]
   pull_request:
-    paths:
-      - 'projects/behavioral-operations-and-human-decision-making/**'
-      - '.github/workflows/behavioral-operations.yml'
+  workflow_dispatch:
 
 jobs:
   test:
